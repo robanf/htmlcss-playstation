@@ -1,0 +1,38 @@
+.logo{
+    background-color: black;
+    height: 50px;
+}
+
+
+.my_nav{
+    background-color: brown;
+    height: 90px;
+}
+
+.my_jumbo{
+    background-color: coral;
+    height: 300px;
+}
+
+.my_games{
+    background-color: darkblue;
+    height: 100px;
+}
+
+.game{
+    background-color: crimson;
+    height: 60px;
+    width: 90px;
+}
+
+
+.my_ps5{
+    height: 200px;
+    background-color: darkgoldenrod;
+}
+
+.my_play{
+    background-color: darkorchid;
+    height: 150px;
+    width: 150px;
+}
