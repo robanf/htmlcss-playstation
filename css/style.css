@@ -17,6 +17,7 @@
 .my_jumbo{
     background-image: url(../img/img/jumbo-bg.png);
     background-size: cover;
+    background-position: center;
     height: 550px;
 }
 
@@ -34,10 +35,10 @@
     height: 100px;
 }
 
-.game{
-    background-color: crimson;
-    height: 60px;
-    width: 90px;
+.game img{
+    border-radius: 20px;
+    height: auto;
+    width: 150px;
 }
 
 
