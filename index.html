@@ -12,45 +12,63 @@
     <!-- inizio header -->
     <header>
         <!-- logo sony -->
-        <div class="container-fluid logo">
-            <div class="row"> 
-                <div class="logo"></div>
+        <section class="logo">
+            <div class="container-fluid">
+                <div class="row "> 
+                    <div class="logo d-flex justify-content-end align-items-center">
+                        <img src="img/img/sony_logo.svg" alt="">
+                    </div>
+                </div>
             </div>
-            
-        </div>
+        </section>    
 
         <!-- barra di nav -->
-        <div class="container-fluid my_nav">
-            <div class="row">
-                <nav></nav>
+        <section class="my_nav">
+            <div class="container-xl">
+                <div class="row">
+                    <nav></nav>
+                </div>
             </div>
-        </div>
-
+        </section>
         <!-- jumbotron -->
-        <div class="container-fluid my_jumbo">
-            <div class="row">
-                <div id="jumbotron"></div>
+        <section class="my_jumbo d-flex justify-content-end">
+            <div class="container-xl d-flex justify-content-end">
+                <div class="row flex-column justify-content-end" id="jumbotron">
+                    <div class="col-md-4 col-lg-4 pb-2">
+                        <img src="img/img/returnal-hero-banner-logo.png" alt="">
+                    </div>
+                    <div class="col-md-4  col-lg-4 pb-2">
+                        <h2>Rompi il cerchio</h2>
+                    </div>
+                    <div class="col-md-12 col-lg-4 pb-2">
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum atque eum et omnis error sapiente tenetur architecto deserunt fugiat, inventore ab quaerat cum, doloremque illo officiis adipisci dolorum consequatur ipsa?</div>
+                    </div>
+                    <div class="col-md-4 pb-5">
+                        <button type="button" class="btn btn-danger rounded-pill">Acquista ora</button>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <!-- giochi sotto il jumbo  -->
-        <div class="container my_games mb-5">
-            <div class="row my_games d-flex justify-content-around align-items-center">
-                <div class="col-2 game"></div>
-                <div class="col-2 game"></div>
-                <div class="col-2 game"></div>
-                <div class="col-2 game"></div>
-                <div class="col-2 game"></div>
-                <div class="col-2 game"></div>
+        </section>
+            <!-- giochi sotto il jumbo  -->
+        <section class="my_games">
+            <div class="container mb-5">
+                <div class="row my_games d-flex justify-content-around align-items-center">
+                    <div class="col-2 game"></div>
+                    <div class="col-2 game"></div>
+                    <div class="col-2 game"></div>
+                    <div class="col-2 game"></div>
+                    <div class="col-2 game"></div>
+                    <div class="col-2 game"></div>
+                </div>
             </div>
-        </div>
+        </section>
     </header>
 
     <!-- inizio main  -->
     <main>
         <!-- pubblicita ps5 -->
         <section>
-            <div class="container-fluid mb-5">
+            <div class="container-xl mb-5">
                 <div class="row text-center">
                     <h3>playstation</h3>
                 </div>
@@ -59,11 +77,21 @@
                     <div class="col-6 my_play"> </div>
                 </div>
                 <div class="row  justify-content-around">
-                    <div class="col-4 col-md-2 game">aaaaa</div>
-                    <div class="col-4 col-md-2 game">sssss</div>
-                    <div class="col-4 col-md-2 game">dddd</div>
-                    <div class="col-4 col-md-2 game">cccccc</div>
-                    <div class="col-4 col-md-2 game">fffffffffff</div>
+                    <div class="col-4 col-md-2">
+                        <div class="game"></div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="game"></div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="game"></div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="game"></div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="game"></div>
+                    </div>
                 </div>
             </div>
 
@@ -71,14 +99,14 @@
 
         <!-- pubblicita nuovi giochi -->
 
-        <div class="container-fluid my_jumbo">
+        <div class="container-xl my_jumbo">
             <div class="row">
                 <div id="jumbotron"></div>
             </div>
         </div>
 
         <!-- nuove uscite -->
-        <div class="container-fluid mb-5">
+        <div class="container-xl mb-5">
             <div class="row">
                 <div></div>
                 <div></div>
@@ -101,7 +129,7 @@
             </div>
         </div>
 
-        <div class="container-fluid mb-5">
+        <div class="container-xl mb-5">
             <div class="row text-center">
                 <h3>playstation</h3>
             </div>
@@ -114,7 +142,7 @@
         </div>
 
         <!-- zona plus -->
-        <div class="container-fluid my_jumbo mb-3">
+        <div class="container-xl my_jumbo mb-3">
             <div class="row">
                 <div class="col-6"></div>
                 <div class="col-6"></div>
@@ -122,7 +150,7 @@
         </div>
 
         <!-- zona playstore -->
-        <div class="container-fluid my_ps5 mb-5">
+        <div class="container-xl my_ps5 mb-5">
             <div class="row text-center">
                 <h3>playstation</h3>
             </div>
@@ -134,7 +162,7 @@
         </div>
 
 
-        <div class="container-fluid my_jumbo mb-3">
+        <div class="container-xl my_jumbo mb-3">
             <div class="row">
                 <div class="col-6"></div>
                 <div class="col-6"></div>

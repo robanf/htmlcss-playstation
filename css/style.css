@@ -3,6 +3,11 @@
     height: 50px;
 }
 
+.logo img{
+    height: 30px;
+    width: auto;
+}
+
 
 .my_nav{
     background-color: brown;
@@ -10,8 +15,18 @@
 }
 
 .my_jumbo{
-    background-color: coral;
-    height: 300px;
+    background-image: url(../img/img/jumbo-bg.png);
+    background-size: cover;
+    height: 550px;
+}
+
+#jumbotron {
+    color: white;
+}
+
+#jumbotron img{
+   height: 70px;
+   width: auto;
 }
 
 .my_games{
