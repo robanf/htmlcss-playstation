@@ -8,11 +8,16 @@
     width: auto;
 }
 
-
-
-
 .icona i{
     font-size: 30px;
+}
+
+.blue{
+    color: #3a92d9;
+}
+
+.gray{
+    color: #828282;
 }
 
 .my_jumbo{
@@ -48,8 +53,9 @@
     background-color: darkgoldenrod;
 }
 
-.my_play{
-    background-color: darkorchid;
-    height: 150px;
-    width: 150px;
+
+
+.my_play img {
+    width: 400px;
+    height: auto;
 }
