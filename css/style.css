@@ -56,6 +56,11 @@
 
 
 .my_play img {
-    width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.game img{
+    width: 100%;
     height: auto;
 }
