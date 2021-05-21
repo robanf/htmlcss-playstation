@@ -88,3 +88,24 @@
     height: auto;
     width: 100%;
 }
+
+.my_plus{
+    background-color: #BBB9B8;
+    
+}
+
+.logo-plus img{
+    height: 80px;
+    width: auto;
+}
+
+/* .free-game-plus img{
+    height: 500px;
+    width: auto;
+} */
+
+.btn-plus{
+    background-color: #d9dadc;
+    color: #3b6ee4;
+    font-weight: 700;
+}
