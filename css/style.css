@@ -60,10 +60,7 @@
     height: auto;
 }
 
-.game img{
-    width: 100%;
-    height: auto;
-}
+
 
 
 .my_pubblicita{
@@ -84,4 +81,10 @@
 
 .new-game{
     background-color: #0E0E0E;
+}
+
+
+.my_ps4 img{
+    height: auto;
+    width: 100%;
 }
