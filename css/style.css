@@ -99,13 +99,18 @@
     width: auto;
 }
 
-/* .free-game-plus img{
-    height: 500px;
-    width: auto;
-} */
+.my_now{
+    background-color: #161c3b;
+}
 
 .btn-plus{
     background-color: #d9dadc;
     color: #3b6ee4;
+    font-weight: 700;
+}
+
+.btn-now{
+    background-color: #f5f5f5;
+    color: #131313;
     font-weight: 700;
 }
