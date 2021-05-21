@@ -64,3 +64,24 @@
     width: 100%;
     height: auto;
 }
+
+
+.my_pubblicita{
+    background-image: url(../img/img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+.my_pubblicita img{
+    height: 250px;
+   width: auto;
+}
+
+.white{
+    color: white;
+}
+
+.new-game{
+    background-color: #0E0E0E;
+}
