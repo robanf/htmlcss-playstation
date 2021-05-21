@@ -114,3 +114,18 @@
     color: #131313;
     font-weight: 700;
 }
+
+.end-footer{
+    background-color: #00439c;
+    list-style: none;
+}
+
+.end-footer li{
+    list-style: none;
+}
+
+.logo-ps{
+    height: 80px;
+    width: auto;
+}
+
