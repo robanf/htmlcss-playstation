@@ -31,10 +31,10 @@
     color: white;
 }
 
-#jumbotron img{
+/* #jumbotron img{
    height: 70px;
    width: auto;
-}
+} */
 
 .my_games{
     background-color: darkblue;
@@ -70,10 +70,7 @@
     height: 550px;
 }
 
-.my_pubblicita img{
-    height: 250px;
-   width: auto;
-}
+
 
 .white{
     color: white;
@@ -84,20 +81,17 @@
 }
 
 
-.my_ps4 img{
+/* .my_ps4 img{
     height: auto;
     width: 100%;
-}
+} */
 
 .my_plus{
     background-color: #BBB9B8;
     
 }
 
-.logo-plus img{
-    height: 80px;
-    width: auto;
-}
+
 
 .my_now{
     background-color: #161c3b;
